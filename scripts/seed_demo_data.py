@@ -3,17 +3,12 @@
 from __future__ import annotations
 
 import asyncio
-import os
 import random
 from datetime import datetime, timedelta
 
 import asyncpg
 
-# Override with env: set DEMO_DATABASE_URL=postgresql://user:pass@host:5432/dbname
-URL = os.environ.get(
-    "DEMO_DATABASE_URL",
-    "postgresql://postgres:YOUR_PASSWORD@127.0.0.1:5432/postgres",
-)
+URL = "postgresql://postgres:rzx1218@127.0.0.1:5432/postgres"
 
 FIRST = [
     "Alice",

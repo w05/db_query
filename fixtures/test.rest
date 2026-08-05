@@ -6,7 +6,7 @@
 @dbName = postgres
 
 ### Variables
-@testDbUrl = postgresql://postgres:YOUR_PASSWORD@127.0.0.1:5432/{{dbName}}
+@testDbUrl = postgresql://postgres:rzx1218@127.0.0.1:5432/{{dbName}}
 
 ###
 ### Health Check
